@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/14-3 Dictionary Mistakes/Dictionary Mistakes.gd" type="Script" id=1]
+
+[node name="Dictionary Mistakes" type="Node"]
+script = ExtResource( 1 )

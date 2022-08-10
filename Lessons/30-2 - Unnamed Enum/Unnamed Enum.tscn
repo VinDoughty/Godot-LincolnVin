@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/30-2 - Unnamed Enum/Unnamed Enum.gd" type="Script" id=1]
+
+[node name="Unnamed Enum" type="Node"]
+script = ExtResource( 1 )

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/30-3 - Enum Custom Values/Enum Custom Values.gd" type="Script" id=1]
+
+[node name="Enum Custom Values" type="Node"]
+script = ExtResource( 1 )

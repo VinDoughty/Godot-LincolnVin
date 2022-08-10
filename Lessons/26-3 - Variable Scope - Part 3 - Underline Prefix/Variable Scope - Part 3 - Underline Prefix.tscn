@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/26-3 - Variable Scope - Part 3 - Underline Prefix/Variable Scope - Part 3 - Underline Prefix.gd" type="Script" id=1]
+
+[node name="Variable Scope - Part 3 - Underline Prefix" type="Node"]
+script = ExtResource( 1 )

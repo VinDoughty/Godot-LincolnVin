@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/06-2 - Function Parameters and Signature/Function Parameters and Signature.gd" type="Script" id=1]
+
+[node name="Function Parameters and Signature" type="Node"]
+script = ExtResource( 1 )

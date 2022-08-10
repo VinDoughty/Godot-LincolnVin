@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/12-5 - Dictionaries - Part 5/Dictionaries - Part 5.gd" type="Script" id=1]
+
+[node name="Dictionaries - Part 5" type="Node"]
+script = ExtResource( 1 )

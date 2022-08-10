@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/18-2 - Modulo Operator/Modulo Operator.gd" type="Script" id=1]
+
+[node name="Modulo Operator" type="Node"]
+script = ExtResource( 1 )

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/13-1 Setting Array Elements/Setting Array Elements.gd" type="Script" id=1]
+
+[node name="Setting Array Elements" type="Node"]
+script = ExtResource( 1 )

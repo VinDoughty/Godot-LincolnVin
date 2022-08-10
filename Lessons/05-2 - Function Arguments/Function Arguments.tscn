@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/05-2 - Function Arguments/Function Arguments.gd" type="Script" id=1]
+
+[node name="Function Arguments" type="Node"]
+script = ExtResource( 1 )

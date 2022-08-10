@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/01 - Nodes Scenes and Scripts/Nodes Scenes and Scripts.gd" type="Script" id=1]
+
+[node name="Nodes Scenes and Scripts" type="Node"]
+script = ExtResource( 1 )

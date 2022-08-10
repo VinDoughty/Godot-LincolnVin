@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/33-1 - Objects and Classes/Objects and Classes.gd" type="Script" id=1]
+
+[node name="Objects and Classes" type="Node"]
+script = ExtResource( 1 )

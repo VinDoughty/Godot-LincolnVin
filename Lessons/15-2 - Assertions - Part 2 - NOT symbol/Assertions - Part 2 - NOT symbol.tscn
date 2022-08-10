@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/15-2 - Assertions - Part 2 - NOT symbol/Assertions - Part 2 - NOT symbol.gd" type="Script" id=1]
+
+[node name="Assertions - Part 2 - NOT symbol" type="Node"]
+script = ExtResource( 1 )

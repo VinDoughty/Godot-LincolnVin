@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/13-2 Setting Dictionary Values/Setting Dictionary Values.gd" type="Script" id=1]
+
+[node name="Setting Dictionary Values" type="Node"]
+script = ExtResource( 1 )

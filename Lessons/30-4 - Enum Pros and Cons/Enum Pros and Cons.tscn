@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/30-4 - Enum Pros and Cons/Enum Pros and Cons.gd" type="Script" id=1]
+
+[node name="Enum Pros and Cons" type="Node"]
+script = ExtResource( 1 )

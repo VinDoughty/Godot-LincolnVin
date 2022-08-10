@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/04-2 - Static Typing/Static Typing.gd" type="Script" id=1]
+
+[node name="Static Typing" type="Node"]
+script = ExtResource( 1 )

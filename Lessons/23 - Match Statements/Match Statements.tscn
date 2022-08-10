@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/23 - Match Statements/Match Statements.gd" type="Script" id=1]
+
+[node name="Match Statements" type="Node"]
+script = ExtResource( 1 )

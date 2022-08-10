@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/11 - Array Class Functions/Array Class Functions.gd" type="Script" id=1]
+
+[node name="Array Class Functions" type="Node"]
+script = ExtResource( 1 )

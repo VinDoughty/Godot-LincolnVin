@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/18-1 - Math Operators/Math Operators.gd" type="Script" id=1]
+
+[node name="Math Operators" type="Node"]
+script = ExtResource( 1 )

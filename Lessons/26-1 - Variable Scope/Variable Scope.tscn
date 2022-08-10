@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/26-1 - Variable Scope/Variable Scope.gd" type="Script" id=1]
+
+[node name="Variable Scope" type="Node"]
+script = ExtResource( 1 )

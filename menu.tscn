@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://JustAMoment-VGo3z.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://continue or new game .gd" type="Script" id=2]
+[ext_resource path="res://options.gd" type="Script" id=3]
+[ext_resource path="res://button press-lavaa.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 48
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=4]
+default_font = SubResource( 3 )
+
+[node name="Menu" type="Node2D"]
+
+[node name="play button" type="Button" parent="."]
+margin_left = 318.0
+margin_top = 191.0
+margin_right = 687.0
+margin_bottom = 284.0
+theme = SubResource( 2 )
+text = "Play"
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 60.0
+margin_top = 19.0
+margin_right = 981.0
+margin_bottom = 136.0
+theme = SubResource( 4 )
+text = "Lincoln and Vincent's awesome adventure."
+
+[node name="options" type="Button" parent="."]
+margin_left = 319.0
+margin_top = 346.0
+margin_right = 688.0
+margin_bottom = 439.0
+theme = SubResource( 2 )
+text = "opitions"
+script = ExtResource( 3 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[connection signal="button_down" from="play button" to="play button" method="_on_Button_button_down"]
+[connection signal="button_down" from="options" to="options" method="_on_Button_button_down"]

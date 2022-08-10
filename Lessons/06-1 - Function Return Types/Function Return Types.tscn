@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/06-1 - Function Return Types/Function Return Types.gd" type="Script" id=1]
+
+[node name="Statically Typed Functions" type="Node"]
+script = ExtResource( 1 )

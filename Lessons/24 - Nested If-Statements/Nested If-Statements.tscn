@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/24 - Nested If-Statements/Nested If-Statements.gd" type="Script" id=1]
+
+[node name="Nested If-Statements" type="Node"]
+script = ExtResource( 1 )

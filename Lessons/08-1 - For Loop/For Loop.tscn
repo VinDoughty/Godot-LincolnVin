@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Lessons/08-1 - For Loop/For Loop.gd" type="Script" id=1]
+
+[node name="For Loop" type="Node"]
+script = ExtResource( 1 )
