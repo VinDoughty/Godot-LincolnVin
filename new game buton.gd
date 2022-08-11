@@ -19,4 +19,4 @@ func _ready():
 
 func _on_Button2_button_down():
 	get_tree().change_scene("res://Level.tscn"	)
-	
+	Resources.audio_player.play()

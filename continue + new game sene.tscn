@@ -58,7 +58,6 @@ script = ExtResource( 3 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
-volume_db = 6.118
 autoplay = true
 
 [connection signal="button_down" from="Button" to="Button" method="_on_Button_button_down"]

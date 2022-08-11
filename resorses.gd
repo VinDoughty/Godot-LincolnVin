@@ -1,4 +1,3 @@
-
 extends Node
 
 
@@ -15,7 +14,3 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-func _on_Button_button_down():
-	get_tree().change_scene("res://continue + new game sene.tscn"	)
-	print("test")
-	Resources.audio_player.play()

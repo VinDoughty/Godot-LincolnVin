@@ -30,6 +30,10 @@ config/name="Lincoln and Vincent's awesome adventure"
 run/main_scene="res://menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Resources="*res://resources.tscn"
+
 [display]
 
 window/stretch/mode="viewport"
