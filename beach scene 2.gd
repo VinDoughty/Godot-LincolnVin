@@ -1,4 +1,4 @@
-extends Button
+extends Node
 
 
 # Declare member variables here. Examples:
@@ -13,14 +13,5 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
-#	pass
-
-
-
-
-	
-
-
-func _on_Button_button_down():
-	get_tree().change_scene("res://beach scene 1.tscn")
- 
+func _on_Area2D_body_entered(body):
+	get_tree().change_scene("res://beach scene 2.tscn")#	pass

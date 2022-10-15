@@ -1,4 +1,4 @@
-extends Button
+extends Node2D
 
 
 # Declare member variables here. Examples:
@@ -16,11 +16,7 @@ func _ready():
 #	pass
 
 
-
-
-	
-
-
-func _on_Button_button_down():
-	get_tree().change_scene("res://beach scene 1.tscn")
- 
+func _on_Area2D_body_entered(body):
+	body.health-=1
+	if body.health==0:
+		body.die() # Replace with function body.

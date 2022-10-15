@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sprite-walk.png-7e66a9a0a0d30ea1bdb3c4b344d25a96.stex"
+path="res://.import/lincoln.png-94d81f882e6f4f3fa196cb1b79f10f6d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite-walk.png"
-dest_files=[ "res://.import/Sprite-walk.png-7e66a9a0a0d30ea1bdb3c4b344d25a96.stex" ]
+source_file="res://lincoln.png"
+dest_files=[ "res://.import/lincoln.png-94d81f882e6f4f3fa196cb1b79f10f6d.stex" ]
 
 [params]
 

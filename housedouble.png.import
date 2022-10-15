@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sprite-walk.png-7e66a9a0a0d30ea1bdb3c4b344d25a96.stex"
+path="res://.import/housedouble.png-83ba1efe85b24e045fea2b69bb6e03fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite-walk.png"
-dest_files=[ "res://.import/Sprite-walk.png-7e66a9a0a0d30ea1bdb3c4b344d25a96.stex" ]
+source_file="res://housedouble.png"
+dest_files=[ "res://.import/housedouble.png-83ba1efe85b24e045fea2b69bb6e03fd.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

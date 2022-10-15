@@ -9,10 +9,20 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "Lincoln",
+"language": "GDScript",
+"path": "res://Player 1.gd"
+}, {
 "base": "ColorRect",
 "class": "Player",
 "language": "GDScript",
 "path": "res://Lessons/35 - Creating the Player Class/Player.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "PlayerTopDown",
+"language": "GDScript",
+"path": "res://PlayerTopDown.gd"
 }, {
 "base": "ColorRect",
 "class": "Wall",
@@ -20,7 +30,9 @@ _global_script_classes=[ {
 "path": "res://Lessons/36 - Creating the Wall class/Wall.gd"
 } ]
 _global_script_class_icons={
+"Lincoln": "",
 "Player": "",
+"PlayerTopDown": "",
 "Wall": ""
 }
 

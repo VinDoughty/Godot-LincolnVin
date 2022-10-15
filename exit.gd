@@ -5,8 +5,6 @@ extends Node
 # var a = 2
 # var b = "text"
 
-onready var a_player = $"../AudioStreamPlayer"
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	#a_player.play(0.0)
@@ -18,5 +16,4 @@ func _ready():
 #	pass
 func _on_Button_button_down():
 	get_tree().change_scene("res://menu.tscn")
-	a_player.play(0.0)
 	Resources.audio_player.play()
